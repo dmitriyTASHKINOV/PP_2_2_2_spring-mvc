@@ -8,7 +8,7 @@
 <body>
 <div>
     <th:block th:if="${emptyList}">
-        <h1>Список пользователей пуст</h1>
+        <h1>Список пользователей</h1>
         <a href="/addUser">Добавить пользователя</a>
     </th:block>
     <th:block th:if="${not #lists.isEmpty(userList)}">
